@@ -754,3 +754,14 @@ a{
   transition-duration: 3s;
 }
 
+#contact {
+  position: relative;
+  margin-left: 170px;
+  background-color: rgb(48, 202, 202);
+  color: darkblue;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+  width: 500px
+}

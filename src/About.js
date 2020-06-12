@@ -37,14 +37,21 @@ function About(){
                 <br></br>
                 <br></br>
                 <br></br>
-                Contact:
-                <br></br>
-                <br></br>
-                <a href="http://soundcloud.com/minutelessrecordings">Soundcloud</a>
-                <br></br>
-                <a href="http://twitch.tv/minutelessrecordings">Twitch</a>
-                <br></br>
-                <div>minutelessrecordings@gmail.com</div>
+                <div id="contact">
+                    Contact:
+                    <br></br>
+                    <br></br>
+                    <a href="http://soundcloud.com/minutelessrecordings">Soundcloud</a>
+                    <br></br>
+                    <a href="http://twitch.tv/minutelessrecordings">Twitch</a>
+                    <br></br>
+                    <br></br>
+                    <div>Paypal / E-mail: minutelessrecordings@gmail.com</div><br></br>
+                    Write us! <br></br>
+                    We do take donations :) <br></br><br></br>
+                    
+                </div>
+                
             </p> 
             {/* <video  data-aos="fade-right" id="video2" controls="true" src={ video1 }></video>
             <video  data-aos="fade-left" controls="true" src={ video2 }></video> */}
