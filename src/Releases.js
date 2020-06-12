@@ -128,8 +128,8 @@ function Releases(){
       <div className="centerDoc">
         <div className="column" >
           <div  data-aos="fade-left" className="card" style={{color:"#f3f3f3",margin:"20px", marginLeft:"0px",padding:"10px",paddingRight:"0px"}}>
-            <img src= { covers[0] } alt="image1"style={{ width: "600px", height:"600px" }}></img>
-            <h2>minuteless self-titled va</h2>
+            <img src= { covers[0] } alt="image1"style={{ width: "600px", height:"600px", borderRadius: "25px" }}></img>
+            <h2>minuteless va</h2>
             <p className="title">compiled by Kasra Sammak aka K-Owl</p>
             <p id="dl_link"><a href="https://drive.google.com/drive/folders/1oJjItBypWsJUCULm_YsKeVI_P-9pMPwc?usp=sharing" download>Download Full Album Here</a></p>
             <br></br>
@@ -139,32 +139,25 @@ function Releases(){
             <br></br>
             <p class="description">
               This is the first release of Minuteless Recordings. <br></br>
-              Compiled by Kasra Sammak of K-Owl. <br></br>
-              It is a collection of tracks from 15 different artists. <br></br>
-              The intent behind this compilation was<br></br>
-              to create something new and interesting. <br></br>
-              Who knows how close we were. <br></br>
+              Compiled by Kasra Sammak of K-Owl. <br></br><br></br>
+
               All the production behind this compilation was done in-house: <br></br>
               Tracks written and produced by artists themselves.<br></br>
               Mastering by Ioannis Karapostolis of Tenebral Cortex<br></br>
               with the exemption of tracks  03 Romeodark - 🅕🅡🅐🅖🅜🅔🅝🅣🅢 and 12 Voj - Ab Anit <br></br>
               which were self-mastered.<br></br>
               Artwork by Kasra Sammak.<br></br>
-              Artwork is a blend of hand-drawings made by various artists from this compilation.<br></br>
-              No other images were used to make this artwork. <br></br>
-              you may  download it for free.<br></br>
-              We hope you enjoy!<br></br><br></br>
-                      <br></br>
-              Love,<br></br>
-              Minuteless Team
+              Artwork is a blend of hand-drawings made by various artists from this compilation.<br></br><br></br>
+              We hope you enjoy!<br></br>
             </p>
           </div>
         </div>
           
         <div className="column" >
           <div  data-aos="fade-right" id = "rysavyAlbum"className="card" style={{color:"#f3f3f3", margin:"20px",marginLeft:"0px",padding:"20px"}}>
-            <img src= { covers[1] } alt="image1"style={{ width: "600px", height:"600px" }}></img>
-            <h2>underwhelmed<br></br>by rysavy</h2>
+            <img src= { covers[1] } alt="image1"style={{ width: "600px", height:"600px",  borderRadius: "25px" }}></img>
+            <h2>underwhelmed</h2>
+            <h3>rysavy</h3>
             <p className="title">written and produced by Denis Rysavy.</p>
             <p id="dl_link"><a href="https://drive.google.com/drive/folders/1DQTvygOl2Djqjv0zyb6C3v0JMiBt4xou?usp=sharing" download>Download Full Album Here</a></p>
             <br></br>
@@ -174,24 +167,18 @@ function Releases(){
             <br></br>
             <p class="description">
               This is the second release of Minuteless Recordings. <br></br>
-              Produced and written by Denis Rysavy <br></br>
-              It is a collection of ten tracks. <br></br>
-              <br>
-              </br>download is for free.<br></br>
-              Artwork by Henry Fynn aka Nox.<br></br>
-              
-              <br></br>
-              Love,<br></br>
-              Minuteless Team
+              Written and produced by Denis Rysavy.<br></br>
+              Artwork by Henry Fynn of Nox.<br></br>
+
             </p>              
           </div>
         </div>
         <div className="column" >
-          <div  data-aos="fade-right"  id = "rysavyAlbum"className="card" style={{color:"#f3f3f3",margin:"20px",marginLeft:"0px",padding:"20px"}}>
-            <img src={ covers[2] } alt="image1"style={{ width: "600px", height:"600px" }}></img>
-              <h2>arduous recursion<br></br> tenebral cortex</h2>
+          <div  data-aos="fade-left"  id = "rysavyAlbum"className="card" style={{color:"#f3f3f3",margin:"20px",marginLeft:"0px",padding:"20px"}}>
+            <img src={ covers[2] } alt="image1"style={{ width: "600px", height:"600px", borderRadius: "25px" }}></img>
+              <h2>arduous recursion </h2><h3>tenebral cortex</h3>
               <p className="title">written and produced by Ioannis Karapostolis.</p>
-              <p class="comingsoon">To be released on July 1st, 2020</p>
+              <p class="comingsoon">to be released on July 1st, 2020</p>
               <ul id="playlist"  style={{color:"rgb(7, 98, 126)",textAlign:"center"}}> 
                 <li>1 - Shore of Laments</li>
                 <li>2 - x Fat Freddy - Praise the Strigiforme</li>
@@ -204,24 +191,18 @@ function Releases(){
               </ul>
               <br></br>
               <p class="description">
-                Our third release :  <br></br>
-                Produced and written by Ioannis Karapostolis.<br></br>
-                It is a collection of eight twisted tracks. <br></br>
-                Feel free to grab it ! <br></br><br></br>
+                Our third release:  <br></br>
+                Written and produced by Ioannis Karapostolis.<br></br><br></br>
                 Artwork by arsmoriendi:<br></br>
                 <a href="https://www.instagram.com/arsmoriendi____/" target="_blank">Instagram</a><br></br>
                 <br></br>   
-                Love,<br></br>
-                Minuteless Team
               </p>
-              
-              <br></br>
-          </div>
+            </div>
         </div>
 
         <div className="column" >
-          <div  data-aos="fade-left" id = "rysavyAlbum"className="card" style={{color:"#f3f3f3",margin:"20px",marginLeft:"0px",padding:"20px"}}>
-            <img src= { covers[3] } alt="image1"style={{ width: "600px", height:"600px" }}></img>
+          <div  data-aos="fade-right" id = "rysavyAlbum"className="card" style={{color:"#f3f3f3",margin:"20px",marginLeft:"0px",padding:"20px"}}>
+            <img src= { covers[3] } alt="image1"style={{ width: "600px", height:"600px",  borderRadius: "25px" }}></img>
             <h2>pulviemscri textra</h2>
             <p className="title">written and produced by Various Artists</p>
             <p class="comingsoon">Coming Soon!</p>
@@ -249,31 +230,26 @@ function Releases(){
             </ul>
             <p class="description">
               This is the fourth release of Minuteless Recordings. <br></br>
-              Produced and written by various artists. <br></br>
+              Written and produced by various artists. <br></br>
               It is sort of like a self-organized VA. <br></br>
-              Enjoy..
               <br></br>
               <br></br>
-              Download is for free.<br></br>
               Artwork by Nick Beeby of Athrotaxis.<br></br>
-              
-              <br></br>
-              Love,<br></br>
-              Minuteless Team
             </p>
           </div>
         </div>
           
         <div className="column" >
           <div  data-aos="fade-left" id = "rysavyAlbum"className="card" style={{color:"#f3f3f3", margin:"20px",marginLeft:"0px",padding:"20px"}}>
-          <img src={ covers[4] } alt="image1"style={{ width: "600px", height:"600px" }}></img>
-            <h2>rysavy</h2>
+          <img src={ covers[4] } alt="image1"style={{ width: "600px", height:"600px", borderRadius: "25px" }}></img>
+            <h2>not yet titled</h2>
+            <h3>rysavy</h3>
             <p className="title">written and produced by Denis Rysavy.</p>
             <p class="comingsoon">Coming Soon!</p>
             <br></br>
             <ul id="playlist"  style={{color:"rgb(7, 98, 126)", textAlign:"center"}}> 
-              <li>01. Die Dürre</li>
-              <li>02. minutelessaferchill</li>
+              <li>01. die Dürre</li>
+              <li>02. minutelessafterchill</li>
               <li>03. Mixed Up People Remix</li>
               <li>04. the gang</li>
               <li>05. LowBeat</li>
@@ -282,19 +258,13 @@ function Releases(){
             </ul>
             <br></br>
             <p class="description">
-              Produced and written by Denis Rysavy of RYSAVY. <br></br>
-              It is a collection of seven tracks. <br></br>
-              This album is compiled by kasra K.OWL<br></br>
+              Written and produced by Denis Rysavy. <br></br>
+              This album is compiled by Kasra Sammak of K-Owl<br></br>
               All music was produced between 2018 - 2019<br></br>
-              Enjoy..
+              Enjoy.
               <br></br>
-              <br></br>download is for free.<br></br>
 
-              Artwork by Henry Fynn aka NOX.<br></br>
-              
-              <br></br>
-              Love,<br></br>
-              Minuteless Team
+              Artwork by Henry Fynn of Nox.<br></br>
             </p>
           </div>
         </div>
