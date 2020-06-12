@@ -259,9 +259,9 @@ const dl = [
 ]
 const releaseInfo = [
 {
-    album_name: "minuteless va",
+    album_name: "minuteless debut va",
     artist_name: "",
-    title: "compiled by Kasra Sammak aka K-Owl",
+    title: "compiled by Kasra Sammak of K-Owl",
     dl_text: "Download Full Album Here",
     description: <Min/>
 },
@@ -275,7 +275,7 @@ const releaseInfo = [
 {
     album_name: "arduous recursion",
     artist_name: "tenebral cortex",
-    title: "written and produced by Ioannis Karapostolisy.",
+    title: "written and produced by Ioannis Karapostolis.",
     dl_text: "to be released on July 1st, 2020",
     description: <Ard/>
 },

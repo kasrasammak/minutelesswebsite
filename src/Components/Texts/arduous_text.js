@@ -7,10 +7,9 @@ const Ard = () => {
     return(
         <div>
             <p class="description">
-                Our third release :  <br></br>
-                Written and produced by Ioannis Karapostolis. <br></br><br></br>
-                Artwork by arsmoriendi:<br></br>
-                <a href="https://www.instagram.com/arsmoriendi____/" target="_blank">Instagram</a><br></br>
+                Our third release:  <br></br>
+                In loving memory of Thomas Denis. <br></br><br></br>
+                Artwork by: <a href="https://www.instagram.com/arsmoriendi____/" target="_blank">arsmoriendi</a><br></br>
             </p>
         </div>
     )
