@@ -354,69 +354,79 @@ export const artistInfo = [
         "nickname": "the schwiggle",
         "description": "The human behind the Project doob, is called Joe Nemcok, he lives in New York and has Slovakian roots. Believe it or not, he is a real person.",
         "soundcloud": "https://soundcloud.com/jdoobn",
-        "profile": doob
+        "profile": doob,
+        "fade": "fade-left"
     },
     {
         "artist": "nihilij | voj",
         "nickname": "the fraggle",
         "description": "Our one and Only Jovan M. Theres not much to say, he lives in California and plays piano.",
         "soundcloud": "https://soundcloud.com/definitely-jovan",
-        "profile": jovan
+        "profile": jovan,
+        "fade": "fade-right"
     },
     {
         "artist": "rysavy",
         "nickname": "the whomble",
         "description": "Rysavy, is the project of Denis Rysavy, Turkish and German roots, he is currently living in Germany.",
         "soundcloud": "https://soundcloud.com/denis-rysavy",
-        "profile": rysavy
+        "profile": rysavy,
+        "fade": "fade-left"
     },
     {
         "artist": "k-owl",
         "nickname": "the skripple",
         "description": "K-Owl - living legend Kasra Sammak, Persian roots, from USA, currently housing in Berlin with his cat Bear.",
         "soundcloud": "https://soundcloud.com/k-owl",
-        "profile": k_owl
+        "profile": k_owl,
+        "fade": "fade-right"
     },
     {
         "artist": "enigmachina",
         "nickname": "the wump",
         "description": "Alban Rumpf is the person behind the  Enigmachina Project, chilling in Oldenburg with his girl and some cats.",
         "soundcloud": "https://soundcloud.com/theongoingarcanum",
-        "profile": enigmachina
+        "profile": enigmachina,
+        "fade": "fade-left"
     },
     {
         "artist": "nox",
         "nickname": "the winkle",
         "description": <Nox/>,
         "soundcloud": "https://soundcloud.com/nox_sound",
-        "profile": nox
+        "profile": nox,
+        "fade": "fade-right"
     },
     {
         "artist": "tenebral cortex",
         "nickname": "the quirkle",
         "description": "Tenebral Cortex emerges from the mind of french/greek artist Ioannis Karapostolis of Greece. He is currently living in France.",
         "soundcloud": "https://soundcloud.com/tenebralcortex",
-        "profile": tenebral_cortex
+        "profile": tenebral_cortex,
+        "fade": "fade-left"
     },
     {
         "artist": "beep etc.",
         "nickname": "the weeble",
         "description": "beep etc. is Tanis Nielsen from Denmark",
         "soundcloud": "https://soundcloud.com/beepetc",
-        "profile": beep_etc
+        "profile": beep_etc,
+        "fade": "fade-right"
     },
     {
         "artist": "tsev",
         "nickname": "the wubble",
         "description": "tsev is Mario from Greece",
         "soundcloud": "https://soundcloud.com/chev-5",
-        "profile": tsev
+        "profile": tsev,
+        "fade": "fade-left",
     },
     {
         "artist": "disektor",
         "nickname": "the crunkle",
         "description": "disektor is Simo Mansouri from Morocco",
         "soundcloud": "https://soundcloud.com/disektor",
-        "profile": disektor
+        "profile": disektor,
+        "fade": "fade-right"
     }
 ]
