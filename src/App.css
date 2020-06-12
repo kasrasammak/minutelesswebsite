@@ -34,7 +34,7 @@ code {
 }
 
 
-h1 ,h2 {
+h1 ,h2, h3 {
   color: hsl(189, 100%, 82%);
   text-align:center;
   margin-top: 10px;
@@ -583,6 +583,7 @@ h6{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-bottom:10vh;
   background-color: #60b8cc;
+  border-radius: 25px;
 }
 
 @media screen and(max-width:800px){
