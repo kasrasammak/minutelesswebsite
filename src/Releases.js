@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Card from './Components/Card.js'
 
 function Releases(){
 
@@ -122,51 +123,50 @@ function Releases(){
     }
   ] 
 
+  const dl = [
+    "https://drive.google.com/drive/folders/1oJjItBypWsJUCULm_YsKeVI_P-9pMPwc?usp=sharing",
+    "https://drive.google.com/drive/folders/1DQTvygOl2Djqjv0zyb6C3v0JMiBt4xou?usp=sharing"
+  ]
+
+  const release = [
+    {
+      album_name: "minuteless va",
+      artist_name: "",
+      title: "compiled by Kasra Sammak aka K-Owl",
+      dl_text: "Download Full Album Here",
+      description: "This is the first release of Minuteless Recordings. Compiled by Kasra Sammak of K-Owl. It is a collection of tracks from 15 different artists. The intent behind this compilation was to create something new and interesting. Who knows how close we were. All the production behind this compilation was done in-house: Tracks written and produced by artists themselves. Mastering by Ioannis Karapostolis of Tenebral Cortex with the exemption of tracks  03 Romeodark - 🅕🅡🅐🅖🅜🅔🅝🅣🅢 and 12 Voj - Ab Anit which were self-mastered. Artwork by Kasra Sammak. Artwork is a blend of hand-drawings made by various artists from this compilation. No other images were used to make this artwork. We hope you enjoy! Love, Minuteless Team"
+    },
+    {
+      album_name: "underwhelmed",
+      artist_name: "rysavy",
+      title: "written and produced by Denis Rysavy.",
+      dl_text: "Download Full Album Here",
+      description: "This is the second release of Minuteless Recordings. Produced and written by Denis Rysavy. It is a collection of ten tracks. Artwork by Henry Fynn aka Nox. Love, Minuteless Team"
+    }
+  ]
   return(
     <div>
       <h1 className="headers" >RELEASES</h1>
       <div className="centerDoc">
-        <div className="column" >
-          <div  data-aos="fade-left" className="card" style={{color:"#f3f3f3",margin:"20px", marginLeft:"0px",padding:"10px",paddingRight:"0px"}}>
-            <img src= { covers[0] } alt="image1"style={{ width: "600px", height:"600px" }}></img>
-            <h2>minuteless self-titled va</h2>
-            <p className="title">compiled by Kasra Sammak aka K-Owl</p>
-            <p id="dl_link"><a href="https://drive.google.com/drive/folders/1oJjItBypWsJUCULm_YsKeVI_P-9pMPwc?usp=sharing" download>Download Full Album Here</a></p>
-            <br></br>
-            <ul id="playlist"  style={{color:"#f3f3f3"}}> 
-              { minuteless.map(data => <li><a target="_blank" href={ data.href }>{ data.title }</a></li>) }
-            </ul>
-            <br></br>
-            <p class="description">
-              This is the first release of Minuteless Recordings. <br></br>
-              Compiled by Kasra Sammak of K-Owl. <br></br>
-              It is a collection of tracks from 15 different artists. <br></br>
-              The intent behind this compilation was<br></br>
-              to create something new and interesting. <br></br>
-              Who knows how close we were. <br></br>
-              All the production behind this compilation was done in-house: <br></br>
-              Tracks written and produced by artists themselves.<br></br>
-              Mastering by Ioannis Karapostolis of Tenebral Cortex<br></br>
-              with the exemption of tracks  03 Romeodark - 🅕🅡🅐🅖🅜🅔🅝🅣🅢 and 12 Voj - Ab Anit <br></br>
-              which were self-mastered.<br></br>
-              Artwork by Kasra Sammak.<br></br>
-              Artwork is a blend of hand-drawings made by various artists from this compilation.<br></br>
-              No other images were used to make this artwork. <br></br>
-              you may  download it for free.<br></br>
-              We hope you enjoy!<br></br><br></br>
-                      <br></br>
-              Love,<br></br>
-              Minuteless Team
-            </p>
-          </div>
-        </div>
+        <Card 
+          covers = {covers[0]}
+          tracklist = { minuteless }
+          dl = {dl[0]}
+          release = {release[0]}
+         />
+        <Card 
+          covers = {covers[1]}
+          tracklist = { underwhelmed }
+          dl = {dl[1]}
+          release = {release[1]}
+         />
           
         <div className="column" >
           <div  data-aos="fade-right" id = "rysavyAlbum"className="card" style={{color:"#f3f3f3", margin:"20px",marginLeft:"0px",padding:"20px"}}>
             <img src= { covers[1] } alt="image1"style={{ width: "600px", height:"600px" }}></img>
             <h2>underwhelmed<br></br>by rysavy</h2>
             <p className="title">written and produced by Denis Rysavy.</p>
-            <p id="dl_link"><a href="https://drive.google.com/drive/folders/1DQTvygOl2Djqjv0zyb6C3v0JMiBt4xou?usp=sharing" download>Download Full Album Here</a></p>
+            <p id="dl_link"><a href={dl[1]} download>Download Full Album Here</a></p>
             <br></br>
             <ul id="playlist"  style={{color:"#f3f3f3",textAlign:"center"}}>
               { underwhelmed.map(data => <li><a target="_blank" href={ data.href }>{ data.title }</a></li>) }
