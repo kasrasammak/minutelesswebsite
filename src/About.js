@@ -1,0 +1,55 @@
+import React, { useEffect } from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+function About(){
+
+    useEffect(() => {
+        Aos.init({ duration:2000 });
+    
+      }, []); 
+
+    return(
+    <div className="centerDoc">
+        <h1 className="headers">ABOUT US</h1>
+        <div id="divLeft">
+            <p class="text_about">Minuteless Recordings is a music label of its own.
+            <br></br>
+            <br></br>
+                And its not only about music:  mathematics, philosophy, language, programming, it is where the intersection of various disciplines converges at art and community. <br></br><br></br>
+                It is a way of life, a way of thinking forward, a way of exploration.<br></br><br></br> 
+                In the end there's many terms you could use to describe it,
+                and we could even use different languages,<br></br><br></br>
+                <p>but when you know it's minuteless, you just know. </p><br></br>
+                Certainty and doubt don't even exist in the paradigm you are in anymore,
+                your belief system has effectively disintegrated.
+                <br></br><br></br>
+                But when you come back to reality, you realize that you could, if you really tried, attempt to describe it.
+                <br></br><br></br>
+                But we wont do that here.
+                <br></br>
+                <br></br>
+                In this portal you can find our music  as well as some information about our artists. But be sure
+                that there is more to come so stay tuned .. ! "
+                <br></br>
+                <br></br>
+                <br></br>
+                Contact:
+                <br></br>
+                <br></br>
+                <a href="http://soundcloud.com/minutelessrecordings">Soundcloud</a>
+                <br></br>
+                <a href="http://twitch.tv/minutelessrecordings">Twitch</a>
+                <br></br>
+                <div>minutelessrecordings@gmail.com</div>
+            </p> 
+            <video  data-aos="fade-right" id="video2" controls="true" src="images/minuteless_live.mp4"></video>
+            <video  data-aos="fade-left" controls="true" src="images/dooblive.mp4"></video>
+         <br></br>     
+        </div>
+    </div>
+          
+    )
+}
+
+export default About;
