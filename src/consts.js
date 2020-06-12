@@ -299,31 +299,36 @@ export const releases = [
         "cover": covers[0],
         "dl": dl[0],
         "releaseInfo": releaseInfo[0],
-        "tracklists": minuteless
+        "tracklists": minuteless,
+        "fade": "fade-left"
     },
     {
         "cover": covers[1],
         "dl": dl[1],
         "releaseInfo": releaseInfo[1],
-        "tracklists": underwhelmed
+        "tracklists": underwhelmed,
+        "fade": "fade-right"
     },
     {
         "cover": covers[2],
         "dl": "",
         "releaseInfo": releaseInfo[2],
-        "tracklists": arduous
+        "tracklists": arduous,
+        "fade": "fade-left"
     },
     {
         "cover": covers[3],
         "dl": "",
         "releaseInfo": releaseInfo[3],
-        "tracklists": pulviemscri
+        "tracklists": pulviemscri,
+        "fade": "fade-right"
     },
     {
         "cover": covers[4],
         "dl": "",
         "releaseInfo": releaseInfo[4],
-        "tracklists": rysavy2
+        "tracklists": rysavy2,
+        "fade": "fade-left"
     },
 ]
 

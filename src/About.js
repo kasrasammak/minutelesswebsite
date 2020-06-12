@@ -48,7 +48,7 @@ function About(){
                     <br></br>
                     <div>Paypal / E-mail: minutelessrecordings@gmail.com</div><br></br>
                     Write us! <br></br>
-                    We do take donations :) <br></br><br></br>
+                    We accept donations :) <br></br><br></br>
                     
                 </div>
                 

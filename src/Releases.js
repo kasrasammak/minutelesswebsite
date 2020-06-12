@@ -22,6 +22,7 @@ function Releases(){
               tracklist = {data.tracklists}
               dl = {data.dl}
               releaseInfo = {data.releaseInfo}
+              fade={data.fade}
             />)
         }
       </div>  
