@@ -2,6 +2,8 @@ import React from 'react';
 
 function Home(){
 
+    const logo = "https://lh3.googleusercontent.com/8S8tDfYlYMQgkDvzuann7_mEpvjlaeTVXoR4337FfIwJ_kuG9pp57ezr69G71GcjwcLUgaefPpEbcnFZzSSmrwD_8Y-snEeixzA6W9Us45AK_goKZyMnmaqekvpxckrhtpIADZtosw=w2400"
+
     return(
         <div id="homeMessage" >   
             <div style={{
@@ -13,7 +15,7 @@ function Home(){
 
 
         <div id="centerPic">
-            <img src="images/uhr.jpg"></img>
+            <img src= { logo }></img>
         </div>               
             <div style={{
                 fontSize:"65px",

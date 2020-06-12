@@ -4,6 +4,9 @@ import "aos/dist/aos.css";
 
 function About(){
 
+    const video1 = "https://www.youtube.com/watch?v=txKtLuoPm-g&feature=youtu.be"
+    const video2 = "https://www.youtube.com/embed/50PjIeuWlII"
+
     useEffect(() => {
         Aos.init({ duration:2000 });
     
@@ -43,8 +46,11 @@ function About(){
                 <br></br>
                 <div>minutelessrecordings@gmail.com</div>
             </p> 
-            <video  data-aos="fade-right" id="video2" controls="true" src="images/minuteless_live.mp4"></video>
-            <video  data-aos="fade-left" controls="true" src="images/dooblive.mp4"></video>
+            {/* <video  data-aos="fade-right" id="video2" controls="true" src={ video1 }></video>
+            <video  data-aos="fade-left" controls="true" src={ video2 }></video> */}
+
+            <iframe class="video" data-aos="fade-right" width="560" height="315" src="https://www.youtube.com/embed/txKtLuoPm-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" data-aos="fade-left" width="560" height="315" src="https://www.youtube.com/embed/50PjIeuWlII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <br></br>     
         </div>
     </div>
