@@ -9,42 +9,22 @@ import Footer from './Footer';
 import {Route, Switch} from 'react-router-dom';
 import './App.css';
 
-
 function App() {
+  
   return (
     <div className="App">
-
-
-
-
-  <NavBar></NavBar>
-
-    <Switch>
-      <Route exact path="/" component={Home}></Route>
-      <Route exact path="/About" component={About}></Route>
-      <Route exact path="/News" component={News}></Route>
-      <Route exact path="/Artists" component={Artists}></Route>
-      <Route exact path="/Releases" component={Releases}></Route>
-    </Switch>
-
-
-
-
-    <br></br>
-   
-
-
-    <Footer><script>document.write(new Date().getFullYear())</script></Footer>
-
+      <NavBar/>
+      <Switch>
+        <Route exact path="/" component={Home}></Route>
+        <Route exact path="/About" component={About}></Route>
+        <Route exact path="/News" component={News}></Route>
+        <Route exact path="/Artists" component={Artists}></Route>
+        <Route exact path="/Releases" component={Releases}></Route>
+      </Switch>
+      <br></br>
+      <Footer><script>document.write(new Date().getFullYear())</script></Footer>
     </div>
-
-    
-
-    
-
-    
-  );
-  
+  ); 
 }
 
 export default App;
