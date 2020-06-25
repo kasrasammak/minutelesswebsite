@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 function About(){
 
-    const video1 = "https://www.youtube.com/watch?v=txKtLuoPm-g&feature=youtu.be"
+    const video1 = "https://www.youtube.com/embed/txKtLuoPm-g"
     const video2 = "https://www.youtube.com/embed/50PjIeuWlII"
 
     useEffect(() => {
@@ -56,8 +56,8 @@ function About(){
             {/* <video  data-aos="fade-right" id="video2" controls="true" src={ video1 }></video>
             <video  data-aos="fade-left" controls="true" src={ video2 }></video> */}
 
-            <iframe class="video" data-aos="fade-right" width="560" height="315" src="https://www.youtube.com/embed/txKtLuoPm-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="video" data-aos="fade-left" width="560" height="315" src="https://www.youtube.com/embed/50PjIeuWlII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="k-owl_video" class="video" data-aos="fade-right" width="560" height="315" src={video1} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="doob_video" class="video" data-aos="fade-left" width="560" height="315" src={video2} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <br></br>     
         </div>
     </div>

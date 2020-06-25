@@ -15,7 +15,7 @@ function Home(){
 
 
         <div id="centerPic">
-            <img src= { logo }></img>
+            <img alt="minuteless_logo" src= { logo }></img>
         </div>               
             <div style={{
                 fontSize:"65px",
