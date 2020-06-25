@@ -6,7 +6,7 @@ import Releases from './Releases';
 import Artists from './Artists';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import {Route, Link, Switch, BrowserRouter as Router} from 'react-router-dom';
+import {Route, Link, Switch, HashRouter as Router} from 'react-router-dom';
 import './App.css';
 
 
@@ -19,13 +19,13 @@ function App() {
 
   <NavBar></NavBar>
 
-  <Router history={hashHistory}>
+  <HashRouter>
     <Route exact path="/" component={Home}></Route>
     <Route exact path="/About" component={About}></Route>
     <Route exact path="/News" component={News}></Route>
     <Route exact path="/Artists" component={Artists}></Route>
     <Route exact path="/Releases" component={Releases}></Route>
-  </Router>
+  </HashRouter>
 
 
 
