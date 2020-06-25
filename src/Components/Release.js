@@ -12,7 +12,7 @@ const Release = ({ fade, covers, tracklist, dl, releaseInfo }) => {
   return(
     <div className="column" >
       <div  data-aos={fade} className="card" style={{color:"#f3f3f3",margin:"20px", marginLeft:"0px",padding:"10px",paddingRight:"0px"}}>
-        <img src= {covers} alt="image1"style={{ width: "400px", height:"400px", borderRadius: "25px" }}></img>
+        <img src= {covers} alt="image1"style={{ width: "500px", height:"500px", borderRadius: "25px" }}></img>
         <h2>{releaseInfo.album_name} </h2>
         <h3>{releaseInfo.artist_name}</h3>
         <p className="title">{releaseInfo.title}</p>
