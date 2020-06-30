@@ -34,13 +34,11 @@ code {
 }
 
 
-h1 ,h2, h3 {
+h1 ,h2 {
   color: hsl(189, 100%, 82%);
   text-align:center;
   margin-top: 10px;
 }
-
-
 
 
 .App {
@@ -585,7 +583,6 @@ h6{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-bottom:10vh;
   background-color: #60b8cc;
-  border-radius: 25px;
 }
 
 @media screen and(max-width:800px){
@@ -754,14 +751,23 @@ a{
   transition-duration: 3s;
 }
 
-#contact {
-  position: relative;
-  margin-left: 170px;
-  background-color: rgb(48, 202, 202);
-  color: darkblue;
-  border-radius: 25px;
-  padding: 10px;
-  text-align: center;
-  height: 100%;
-  width: 500px
+#homeMessage, #centerPic
+
+{
+  font-size: 65px;
+
 }
+
+@media screen and (max-width:800px) {
+
+  #homeMessage , #centerPic
+
+{
+  font-size: 45px;
+
+}
+
+
+}
+
+

@@ -8,7 +8,6 @@ function Home(){
         <div id="homeMessage" >   
             <div style={{
                  fontFamily: 'Raleway, sans-serif',
-                 fontSize:"65px",
                  position:"absolute",
                  color:"#F3F3F3",
                  top:"150px",left:"40px"}} id="logoLeft">MINUTELESS</div>
@@ -18,7 +17,6 @@ function Home(){
             <img src= { logo }></img>
         </div>               
             <div style={{
-                fontSize:"65px",
                  fontFamily: 'Raleway, sans-serif',
                  position:"absolute",
                  color:"white",
