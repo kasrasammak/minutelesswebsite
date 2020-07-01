@@ -312,7 +312,7 @@ export const releases = [
     },
     {
         "cover": covers[2],
-        "dl": "",
+        "dl": dl[2],
         "releaseInfo": releaseInfo[2],
         "tracklists": arduous,
         "fade": "fade-left"
