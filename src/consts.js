@@ -277,7 +277,7 @@ const releaseInfo = [
     album_name: "arduous recursion",
     artist_name: "tenebral cortex",
     title: "written and produced by Ioannis Karapostolis.",
-    dl_text: "to be released on July 1st, 2020",
+    dl_text: "Download Full Album Here",
     description: <Ard/>
 },
 {
