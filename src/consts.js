@@ -114,35 +114,35 @@ const underwhelmed = [
 ] 
 const arduous = [
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1IRWdnnw4jqHV3iIUQ1rqFw9gaR18qv14/view?usp=sharing",
     title: "1 - Shore of Laments"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1wau2P3qP5W0uVVnWGerW2opW0dr6QuZT/view?usp=sharing",
     title: "2 - x Fat Freddy - Praise the Strigiforme"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1YvmIk8Z9d7A_c4TazW6XzUs18cJmvaEc/view?usp=sharing",
     title: "3 - Husk"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1823iZWHWMHLPtkU6wKqaXUca4Wvce4M0/view?usp=sharing",
     title: "4 - dogeeseseegod"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1VBlaxdk-cjeM1oSGXWyItfeE21TK91GW/view?usp=sharing",
     title: "5 - x Disektor - Foleyarium"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1eCCS2qBiaaiivKdpKhEt55JSaz3-Blun/view?usp=sharing",
     title: "6 - Flagellate"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1CZOsRXMkWjxxYRqT_GVDzxNVUeQiz5K-/view?usp=sharing",
     title: "7 - Visitor from Egnamis"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1h5PHiTav1RRkjjBn2QZCrGDRfAzLEJO1/view?usp=sharing",
     title: "8 - Abstract Logics"
 }
 ]
@@ -255,7 +255,8 @@ const covers = [
   ]
 const dl = [
 "https://drive.google.com/drive/folders/1oJjItBypWsJUCULm_YsKeVI_P-9pMPwc?usp=sharing",
-"https://drive.google.com/drive/folders/1DQTvygOl2Djqjv0zyb6C3v0JMiBt4xou?usp=sharing"
+"https://drive.google.com/drive/folders/1DQTvygOl2Djqjv0zyb6C3v0JMiBt4xou?usp=sharing",
+"https://drive.google.com/drive/folders/15FwSTmChke0k7bbtPiCnDvejYCaHqsX-?usp=sharing"
 ]
 const releaseInfo = [
 {
@@ -276,7 +277,7 @@ const releaseInfo = [
     album_name: "arduous recursion",
     artist_name: "tenebral cortex",
     title: "written and produced by Ioannis Karapostolis.",
-    dl_text: "to be released on July 1st, 2020",
+    dl_text: "Download Full Album Here",
     description: <Ard/>
 },
 {
@@ -311,7 +312,7 @@ export const releases = [
     },
     {
         "cover": covers[2],
-        "dl": "",
+        "dl": dl[2],
         "releaseInfo": releaseInfo[2],
         "tracklists": arduous,
         "fade": "fade-left"

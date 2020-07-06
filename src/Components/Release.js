@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import Aos from "aos";
+import React from "react";
 import "aos/dist/aos.css";
 
 
@@ -13,11 +12,11 @@ const Release = ({ fade, covers, tracklist, dl, releaseInfo }) => {
   return(
     <div className="column" >
       <div  data-aos={fade} className="card" style={{color:"#f3f3f3",margin:"20px", marginLeft:"0px",padding:"10px",paddingRight:"0px"}}>
-        <img src= {covers} alt="image1"style={{ width: "600px", height:"600px", borderRadius: "25px" }}></img>
+        <img src= {covers} alt="image1"style={{ width: "500px", height:"500px", borderRadius: "25px" }}></img>
         <h2>{releaseInfo.album_name} </h2>
         <h3>{releaseInfo.artist_name}</h3>
         <p className="title">{releaseInfo.title}</p>
-        <p id="dl_link"><a target= "_blank" href={dl} download>{releaseInfo.dl_text}</a></p>
+        <p id="dl_link"><a href={dl} download>{releaseInfo.dl_text}</a></p>
         <br></br>
         <ul id="playlist"> 
           { 
