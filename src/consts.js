@@ -148,71 +148,71 @@ const arduous = [
 ]
 const pulviemscri = [
 {
-    href: "",
+    href: "https://drive.google.com/file/d/11jgfV1jzHJ6bouTcI0UDjfEQV8sYuPGk/view?usp=sharing",
     title: "01. Kfaraday - 3Dti"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1BfE5wa5EyeqfQ_y1OBsNKn51Q6d_bgBK/view?usp=sharing",
     title: "02. Dagshenma - Gurigan dyne"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1KgHP6U8YuK-jVTj7DlYcSYBJwsI9OZRo/view?usp=sharing",
     title: "03. Dino Felipe - Apocal Malaise"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1EBBrEzZklA1jOZSzeLyTg6XRiiJUSEYg/view?usp=sharing",
     title: "04. FishingCat & Athrotaxis - QQQQQQQQQQQQQQ---------untitled2-QQQQQQQQQQ^^^^^^^^QQQ800000000a"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1Nc8eVbRp3H98waRTKkhkD3ULP6vIJ5KZ/view?usp=sharing",
     title: "05. Athrotaxis - flintapsia codumine rassiesk"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1BN6rhgl46z2aISZxdCIIPkoxYbNy-9zb/view?usp=sharing",
     title: "06. Athrotaxis - damprense the volliomeugges"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1jIvQe5u1BnHqTnegRUgan8iZF0ugapej/view?usp=sharing",
     title: "07. Athrotaxis - flintopnarea tranglosse"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1cKisUJjd_M4WBTRNpnhs3kzkQh2-KIFt/view?usp=sharing",
     title: "08. Part A2 (Orochi Rmx) (Kazuaki Orochi)"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1Xc1dhHww8Mp-SBqY5J5-0tXQvxcCIOKn/view?usp=sharing",
     title: "09. Robotic Joe - 12 Skeletons A2"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1Tz4gF7LSs3p99VFaKL2ywoRqfG4SE1GY/view?usp=sharing",
     title: "10. dino felipe - for chronic pain (sounds of Athrotaxis)"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1xubp1yo2RalzVfh5vYkdZE2EP3qcDWTB/view?usp=sharing",
     title: "11. Cyte - Thirteenth skeleton fucks the bicycle neuron(Cyte remix)"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1r_WjjG5aF4JPuFYZ10AKct5xfet0wRQp/view?usp=sharing",
     title: "12. FishingCat - untitled2"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1UDz-J_WoM2oahFm1mvON1qbUpZ69Mk8M/view?usp=sharing",
     title: "13. EW - Teejnuflo1a(template+riverclips)"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/10DskIe-GnojdVOTLPlLfc7SZbsd1J9nZ/view?usp=sharing",
     title: "14. Robotic Joe - 12 Skeletons B2"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1JOCS-9v7GEUbIdFk63sGKBm-VPjWQI8S/view?usp=sharing",
     title: "15. Rainbow Vomit and Cum Bubbles - bathromaxes2"
 },
 {
-    href: "",
-    title: "16. Vypul - AthroTaxis Remix V5"
+    href: "https://drive.google.com/file/d/1iXFTOTsoTI0axJet7W3XXQ2v7kGQbMhf/view?usp=sharing",
+    title: "16. Vypul - Amorphous Form"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1h7dQTn1Tpok_-1HF9OSgwXI7ugb3cgk3/view?usp=sharing",
     title: "17. Moltandi - wadsthisone9"
 }
 ]
@@ -256,7 +256,8 @@ const covers = [
 const dl = [
 "https://drive.google.com/drive/folders/1oJjItBypWsJUCULm_YsKeVI_P-9pMPwc?usp=sharing",
 "https://drive.google.com/drive/folders/1DQTvygOl2Djqjv0zyb6C3v0JMiBt4xou?usp=sharing",
-"https://drive.google.com/drive/folders/15FwSTmChke0k7bbtPiCnDvejYCaHqsX-?usp=sharing"
+"https://drive.google.com/drive/folders/15FwSTmChke0k7bbtPiCnDvejYCaHqsX-?usp=sharing",
+"https://drive.google.com/drive/folders/1ocpx2A7tPZjNL88HT3kquzruoXpM3uku?usp=sharing"
 ]
 const releaseInfo = [
 {
@@ -284,7 +285,7 @@ const releaseInfo = [
     album_name: "pulviemscri textra",
     artist_name: "",
     title: "written and produced by various artists",
-    dl_text: "Coming soon!",
+    dl_text: "out now!!!",
     description: <Pul/>
 },
 {
@@ -319,7 +320,7 @@ export const releases = [
     },
     {
         "cover": covers[3],
-        "dl": "",
+        "dl": dl[3],
         "releaseInfo": releaseInfo[3],
         "tracklists": pulviemscri,
         "fade": "fade-right"
