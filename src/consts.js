@@ -218,31 +218,31 @@ const pulviemscri = [
 ]
 const rysavy2 = [
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1SO5V0dkkOFq8vyWZG_iYYM6N4QnDPTmT/view?usp=sharing",
     title: "01. die Dürre"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1lJX4_-814xMqisX6VdYye8iG3vblyU7R/view?usp=sharing",
     title: "02. minutelessafterchill"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1p5HJcGAlx6lXbC71vQYcTrConsG2HpM7/view?usp=sharing",
     title: "03. Mixed Up People Remix"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1bpbSn0cyoAnEbQJ8BVtN78G3CjNa89AF/view?usp=sharing",
     title: "04. the gang"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1kmnjTr7RWwOpQOFbaDYDmAGT65HVU-il/view?usp=sharing",
     title: "05. LowBeat"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/1rYjc7eUlGV0hP16cbDrnj1I1mG1Mqpgr/view?usp=sharing",
     title: "06. nevermind"
 },
 {
-    href: "",
+    href: "https://drive.google.com/file/d/10rY8mTdPCB-QljkCHYFBh8LLvwGrxAe9/view?usp=sharing",
     title: "07. New Level of Happiness"
 }
 ]
@@ -257,7 +257,8 @@ const dl = [
 "https://drive.google.com/drive/folders/1oJjItBypWsJUCULm_YsKeVI_P-9pMPwc?usp=sharing",
 "https://drive.google.com/drive/folders/1DQTvygOl2Djqjv0zyb6C3v0JMiBt4xou?usp=sharing",
 "https://drive.google.com/drive/folders/15FwSTmChke0k7bbtPiCnDvejYCaHqsX-?usp=sharing",
-"https://drive.google.com/drive/folders/1ocpx2A7tPZjNL88HT3kquzruoXpM3uku?usp=sharing"
+"https://drive.google.com/drive/folders/1ocpx2A7tPZjNL88HT3kquzruoXpM3uku?usp=sharing",
+"https://drive.google.com/drive/folders/11w1A7Sm76mmXyCcS8sBnXRZaEf8w5i5X?usp=sharing"
 ]
 const releaseInfo = [
 {
@@ -285,14 +286,14 @@ const releaseInfo = [
     album_name: "pulviemscri textra",
     artist_name: "",
     title: "written and produced by various artists",
-    dl_text: "out now!!!",
+    dl_text: "Download Full Album Here",
     description: <Pul/>
 },
 {
     album_name: "not yet titled",
     artist_name: "rysavy",
     title: "written and produced by Rysavy",
-    dl_text: "Coming soon!",
+    dl_text: "Download Full Album Here",
     description: <Rys/>
 },
 ]
@@ -327,7 +328,7 @@ export const releases = [
     },
     {
         "cover": covers[4],
-        "dl": "",
+        "dl": dl[4],
         "releaseInfo": releaseInfo[4],
         "tracklists": rysavy2,
         "fade": "fade-left"
