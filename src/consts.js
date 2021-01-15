@@ -5,6 +5,7 @@ import Ard  from './Components/Texts/arduous_text.js'
 import Pul  from './Components/Texts/pulviemscri_text.js'
 import Rys  from './Components/Texts/rysavy2_text.js'
 import Nox  from './Components/Texts/nox_text.js'
+import Rys25  from './Components/Texts/rysavy-25_text.js'
 
 
 //RELEASES
@@ -246,19 +247,123 @@ const rysavy2 = [
     title: "07. New Level of Happiness"
 }
 ]
+const rysavy25 = [
+    {
+        href: "https://drive.google.com/file/d/1K_orqMkQ784kGojgFCty3yZXahuk8fp1/view?usp=sharing",
+        title: "01. Total Rysavy"
+    },
+    {
+        href: "https://drive.google.com/file/d/1H-BplHM4mpw_dbjfGJkcY7vporVac_f7/view?usp=sharing",
+        title: "02. Chaos"
+    },
+    {
+        href: "https://drive.google.com/file/d/1okQxGHlAczEgJYbaZk_FPQSOjXhW9GLw/view?usp=sharing",
+        title: "03. Damn"
+    },
+    {
+        href: "https://drive.google.com/file/d/1VoxzkUlA0lbHxRdltl6oTmLXylv7xwwu/view?usp=sharing",
+        title: "04. Dont Fuck With The Witch"
+    },
+    {
+        href: "https://drive.google.com/file/d/1SCec6D0gkIuMxwzu9EFI-IZL9wYdOUEd/view?usp=sharing",
+        title: "05. Goodbye"
+    },
+    {
+        href: "https://drive.google.com/file/d/1Ng4O0XB9bBC2qYr0l2EEWuUdp601-iQ4/view?usp=sharing",
+        title: "06. Oxy oder Heroin"
+    },
+    {
+        href: "https://drive.google.com/file/d/1eIWI5ciTSGZVhqkxNBJBJ7YGctHuw3CH/view?usp=sharing",
+        title: "07. Broken Youth feat Karl"
+    },
+    {
+        href: "https://drive.google.com/file/d/1tlprdb9grZgMbIp2H8zIkJGx2zmnjFIP/view?usp=sharing",
+        title: "08. Keta"
+    },
+    {
+        href: "https://drive.google.com/file/d/1ntMA5Spzl4DzHYUObSM7kYBRlxnjUz5m/view?usp=sharing",
+        title: "09. FU-Winterdepri"
+    },
+    {
+        href: "https://drive.google.com/file/d/1mF-1NSn_HidWeL5St0GlmX9-u-Ebfrwd/view?usp=sharing",
+        title: "10. Lockdown fun "
+    },
+    {
+        href: "https://drive.google.com/file/d/1pUfPAszciQFdfg7aDwy8tCnlNC0BPQA-/view?usp=sharing",
+        title: "11. Minuteless"
+    },
+    {
+        href: "https://drive.google.com/file/d/19KIc-V6nnKgUKOlyrTSbWHtwD79-NkH7/view?usp=sharing",
+        title: "12. Mystery"
+    },
+    {
+        href: "https://drive.google.com/file/d/14zAkS3pWuZ33mmDSSTSvV7NQ2-hJvX-H/view?usp=sharing",
+        title: "13. New dub "
+    },
+    {
+        href: "https://drive.google.com/file/d/1u2VS58dWq-lhIaCZvSdDry2o5yae4DEw/view?usp=sharing",
+        title: "14. No Beat chill "
+    },
+    {
+        href: "https://drive.google.com/file/d/1gJuTI8w-rFCI6aUPxMmNcGw6b_-SGquD/view?usp=sharing",
+        title: "15. SchöneSachensindSchön"
+    },
+    {
+        href: "https://drive.google.com/file/d/1s4wFqpSZqPdp5-IrQn-C-3Arrh2qKeO0/view?usp=sharing",
+        title: "16. SchöneSachensindSchön DropDown"
+    },
+    {
+        href: "https://drive.google.com/file/d/1NHthmamFM2-9p7U6zsDVOizID2d1-CYO/view?usp=sharing",
+        title: "17. Sonntag"
+    },
+    {
+        href: "https://drive.google.com/file/d/1gsaMU-dFiLFr-QYP4oC36XY_8PgU4oUk/view?usp=sharing",
+        title: "18. Source"
+    },
+    {
+        href: "https://drive.google.com/file/d/13mHjGKnvLB1fQRXCHNdScuDGoFFuajlk/view?usp=sharing",
+        title: "19. Weirdness"
+    },
+    {
+        href: "https://drive.google.com/file/d/1ShRZab0l1jTkiu0SVdLWw63tDG8ybqDj/view?usp=sharing",
+        title: "20. Weired Acid"
+    },
+    {
+        href: "https://drive.google.com/file/d/1rGU4ioZFN8LE7rlSmqzXTfBYqMzjc2L6/view?usp=sharing",
+        title: "21. Weiter"
+    },
+    {
+        href: "https://drive.google.com/file/d/1I8Quf8mVF3mZLeLe1XI6WXzadiVi3hQY/view?usp=sharing",
+        title: "22. Its Okay"
+    },
+    {
+        href: "https://drive.google.com/file/d/1xJDGUTXHirBJ2cPzgc3SQd4MUYvLPbDX/view?usp=sharing",
+        title: "23. Yusuf "
+    },
+    {
+        href: "https://drive.google.com/file/d/1IJ6GPCWvxWIEnJnr09xWwdllJeS0V7ik/view?usp=sharing",
+        title: "24. Yani"
+    },
+    {
+        href: "https://drive.google.com/file/d/14u9mIxgV_Jm9Z398aoOHQkZy1YGaiYCz/view?usp=sharing",
+        title: "25. Yoro"
+    }
+    ]
 const covers = [
     "https://lh3.googleusercontent.com/CBsrSflHqrrAMW1WV8-gYAl28BhWe8NxwDwjvHHtvy7JbuWzCQ1uQ56W8BDBcZOUhHOFxPjfgCpx1uTKS3rGsNPBiLmzNTqb8_JjMlrcpLgEEUtFztCQeAmQtLh--qE3JltjfIg3=w2400",
     "https://lh3.googleusercontent.com/VuckXlWcs6qtJ-HuyhuOf9aRKCbR1Vnmwb_I5CSBKf-g4s12CV9AThtuawbpej_tLSjix-RMLriqjaIHK8VXFoScRgUFCPr842ErBs16akf3qG69QqkejyKF711Ce5M3A-dE5VpM=w2400",
     "https://lh3.googleusercontent.com/5fQX314vDdeMrFRUj3W6JJEnXbO9NU9upezlUU1ibGx3134_SAYMEqdW84Q_ytZXzMFMcXRZCH_Lb9d7pyKXqD6RHD8AuLBIwA4cmevJ0-04xsISEomaGXivPN8ALhaeQtp15Cbp=w2400",
     "https://lh3.googleusercontent.com/ftJbuZ0zYcYw5l_vextZP8XXTDvQFbcFSYUIxKjerDkie_pKa321NHDeo2fBMexUwYzvthL1yYWp3EQp1bvVve6A8u8qIQi6s7DckCKtudbzWFwFC5gA_bN_Mfo7NXUmwWlU2tdY=w2400",
-    "https://lh3.googleusercontent.com/iIrFEJBNmB2CzfJJnqdLEENUwt_9HGyNfieLuczt3THx_VZdPOxXzJxkn-QvstoAGnnu6sR4A41qfbSiQ66_kbxkEGUjAiSupkXOyAqfxozIlMRvvS0eFJrxhW5QOjW4hLhC6VAILw=w2400"
+    "https://lh3.googleusercontent.com/iIrFEJBNmB2CzfJJnqdLEENUwt_9HGyNfieLuczt3THx_VZdPOxXzJxkn-QvstoAGnnu6sR4A41qfbSiQ66_kbxkEGUjAiSupkXOyAqfxozIlMRvvS0eFJrxhW5QOjW4hLhC6VAILw=w2400",
+    "https://lh3.googleusercontent.com/_pjs5oeAt1WPVVPcDrTriQaLLm_AyU7oGXSrIs7VQyfz1FNlDyHr_fJ6STVKoz9SUEwq5xLmglKNIGSTAop2wVfv_tgaYT4z4T4TjOeWZ7XQH6O87xdl-B9ua9_BP7Tw8cnO3ZgZTA=w2400"
   ]
 const dl = [
 "https://drive.google.com/drive/folders/1oJjItBypWsJUCULm_YsKeVI_P-9pMPwc?usp=sharing",
 "https://drive.google.com/drive/folders/1DQTvygOl2Djqjv0zyb6C3v0JMiBt4xou?usp=sharing",
 "https://drive.google.com/drive/folders/15FwSTmChke0k7bbtPiCnDvejYCaHqsX-?usp=sharing",
 "https://drive.google.com/drive/folders/1ocpx2A7tPZjNL88HT3kquzruoXpM3uku?usp=sharing",
-"https://drive.google.com/drive/folders/11w1A7Sm76mmXyCcS8sBnXRZaEf8w5i5X?usp=sharing"
+"https://drive.google.com/drive/folders/11w1A7Sm76mmXyCcS8sBnXRZaEf8w5i5X?usp=sharing",
+"https://drive.google.com/drive/folders/1CVqjpQoajy272B_odxQu-iElNKI7ukTU?usp=sharing"
 ]
 const releaseInfo = [
 {
@@ -296,6 +401,14 @@ const releaseInfo = [
     dl_text: "Download Full Album Here",
     description: <Rys/>
 },
+{
+    album_name: "RYSAVY-25",
+    artist_name: "rysavy",
+    title: "written and produced by Rysavy",
+    dl_text: "Out now!",
+    description: <Rys25/>
+},
+
 ]
 export const releases = [
     {
@@ -331,6 +444,13 @@ export const releases = [
         "dl": dl[4],
         "releaseInfo": releaseInfo[4],
         "tracklists": rysavy2,
+        "fade": "fade-left"
+    },
+    {
+        "cover": covers[5],
+        "dl": dl[5],
+        "releaseInfo": releaseInfo[5],
+        "tracklists": rysavy25,
         "fade": "fade-left"
     },
 ]
