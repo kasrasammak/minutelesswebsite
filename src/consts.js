@@ -507,7 +507,7 @@ export const artistInfo = [
     {
         "artist": "enigmachina",
         "nickname": "the wump",
-        "description": "Alban Rumpf is the person behind the  Enigmachina Project, chilling in Oldenburg with his girl and some cats.",
+        "description": "Alban Rumpf is the person behind the  Enigmachina Project, chilling in Oldenburg with some cats.",
         "soundcloud": "https://soundcloud.com/theongoingarcanum",
         "profile": enigmachina,
         "fade": "fade-left"
