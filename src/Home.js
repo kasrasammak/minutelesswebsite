@@ -7,20 +7,19 @@ function Home(){
     return(
         <div id="homeMessage" >   
             <div style={{
-                 fontFamily: 'Raleway, sans-serif',
-                 position:"absolute",
-                 color:"#F3F3F3",
-                 top:"150px",left:"40px"}} id="logoLeft">MINUTELESS</div>
+                 color:"black",
+                 fontFamily: 'Raleway, sans-serif',}} id="logoLeft">MINUTELESS</div>
 
 
         <div id="centerPic">
             <img alt="minuteless_logo" src= { logo }></img>
+            
         </div>               
             <div style={{
                  fontFamily: 'Raleway, sans-serif',
                  position:"absolute",
                  color:"white",
-                 bottom:"150px",right:"40px"}} id="logoRight">RECORDINGS</div>
+                 }} id="logoRight">RECORDINGS</div>
         </div>      
     )
 }
