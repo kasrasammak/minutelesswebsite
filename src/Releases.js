@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Release from './Components/Release.js'
-import { releases } from './consts.js'
+import { releases , download } from './consts.js'
 
 function Releases(){
 
@@ -13,8 +13,9 @@ function Releases(){
   
   return(
     <div>
-      <h1 className="headers" >RELEASES</h1>
+      
       <div className="centerDoc">
+      <h1 className="headers" >RELEASES</h1>
         {
           releases.map(data => 
             <Release 
@@ -22,10 +23,12 @@ function Releases(){
               tracklist = {data.tracklists}
               dl = {data.dl}
               releaseInfo = {data.releaseInfo}
-              fade={data.fade}
+              download = {download}
             />)
         }
       </div>  
+      <div className="spacer"></div>
+
     </div>  
   )
 }

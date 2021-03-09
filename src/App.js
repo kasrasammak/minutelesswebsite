@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Home from './Home'; 
 import About from './About';
 import News from './News';
@@ -8,6 +8,7 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import {Route, Switch} from 'react-router-dom';
 import './App.css';
+
 
 function App() {
   
@@ -21,7 +22,9 @@ function App() {
         <Route exact path="/Artists" component={Artists}></Route>
         <Route exact path="/Releases" component={Releases}></Route>
       </Switch>
+
       <br></br>
+
       <Footer><script>document.write(new Date().getFullYear())</script></Footer>
     </div>
   ); 

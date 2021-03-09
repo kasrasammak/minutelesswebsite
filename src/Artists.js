@@ -15,15 +15,17 @@ function Artists(){
   return(
     <div className="centerDoc">
       <h1 className="headers">ARTISTS</h1>
-      <div className="row">
         { artistInfo.map(data => 
           <Artist 
             artistInfo={data}
             soundcloud={soundcloud}
           />
+
           )}
-      </div>
+           <div id="spacer2"></div>
+           
     </div>
+   
   )
 }
 

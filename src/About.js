@@ -16,7 +16,7 @@ function About(){
     <div className="centerDoc">
         <h1 className="headers">ABOUT US</h1>
         <div id="divLeft">
-            <p class="text_about">Minuteless Recordings is a music label of its own.
+            <p id="text_about">Minuteless Recordings is a music label of its own.
             <br></br>
             <br></br>
                 And its not only about music:  mathematics, philosophy, language, programming, it is where the intersection of various disciplines converges at art and community. <br></br><br></br>
@@ -56,9 +56,12 @@ function About(){
             {/* <video  data-aos="fade-right" id="video2" controls="true" src={ video1 }></video>
             <video  data-aos="fade-left" controls="true" src={ video2 }></video> */}
 
-            <iframe title="k-owl_video" class="video" data-aos="fade-right" width="560" height="315" src={video1} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe title="doob_video" class="video" data-aos="fade-left" width="560" height="315" src={video2} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <br></br>     
+            <iframe></iframe>
+            <iframe title="k-owl_video" className="video" data-aos="fade-right" width="350px" height="350px" src={video1} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+            <iframe id = "break"></iframe>
+            <iframe id="doob-video" title="doob_video" className="video" data-aos="fade-left" width="350px" height="350px" src={video2} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+         <br></br> 
+         <br></br>    
         </div>
     </div>
           
