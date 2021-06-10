@@ -14,9 +14,16 @@ function News(){
   return(
     <div className="centerDoc">
       <h1 className="headers">News</h1>  
-      <div>
-        <img data-aos="fade-up" id="news" src={ flyer2 } alt="flyer_image"></img>   
+      <div color="white">
+        More news coming soon!  
       </div>
+      <div>--------------------------------------------------------- </div>
+      <div>--------------------------------------------------------- </div>
+      <div>
+        <img data-aos="fade-up" id="news" src={ flyer2 } alt="flyer_image" width="666px"></img>   
+      </div>
+      <div>--------------------------------------------------------- </div>
+      <div>--------------------------------------------------------- </div>
       <div>
         <img data-aos="fade-up" id="news" src={ flyer } alt="flyer_image"></img>   
       </div>

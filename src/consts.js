@@ -6,6 +6,7 @@ import Pul  from './Components/Texts/pulviemscri_text.js'
 import Rys  from './Components/Texts/rysavy2_text.js'
 import Nox  from './Components/Texts/nox_text.js'
 import Rys25  from './Components/Texts/rysavy-25_text.js'
+import PastFuture from './Components/Texts/past-future.js'
 
 
 //RELEASES
@@ -349,13 +350,66 @@ const rysavy25 = [
         title: "25. Yoro"
     }
     ]
+    const past_future = [
+        { 
+            href: "https://drive.google.com/file/d/1OCYk7QX6CL4qh25r1Wy2Vh24JsTpojgA/view?usp=sharing", 
+            title: "01. dinAzor - Irregular" 
+        },
+        { 
+            href: "https://drive.google.com/file/d/1SFdRwCon8Ns3M6tThloZ-HIw1VzdUyBq/view?usp=sharing",
+            title: "02. Alien Lazer Baby - Everyone Does Things Differently"
+        },
+        {
+            href: "https://drive.google.com/file/d/1qs9we7R4rqYC89Aczve-EQZYqiChji-L/view?usp=sharing",
+            title: "03. ZigzaX - NOW Is Less Than A Second Longer Than Infinity",
+        },
+        { 
+            href: "https://drive.google.com/file/d/1YRwkPQA-QqE-ZEX5Qpwmpjtj3ucU_jX5/view?usp=sharing",
+            title: "04. doob - Previously Now is Now Before",
+        },
+        { 
+            href: "https://drive.google.com/file/d/1C3SrBqeyHHUPG85mYyFLPRhvPBve-LFy/view?usp=sharing",
+            title: "05. K-Owl - Melting Plastic Mind"
+        },
+        { 
+            href: "https://drive.google.com/file/d/1eF3j2D3U-9Jnu0MtfaHMFHPEEHrsFwud/view?usp=sharing",
+            title: "06. Rysavy - YANI"
+        },
+        { 
+            href: "https://drive.google.com/file/d/1jYh84UfBH6oUHdcmkPikX1Z8hTmw7mfv/view?usp=sharing",
+            title: "07. Tenebral Cortex - Relinquishing Ariadne"
+        },
+        {
+            href: "https://drive.google.com/file/d/1nLu_03zbQ2woH9oG8z44t3h5JgR5qFGk/view?usp=sharing",
+            title: "08. Disektor - The Commit"
+        },
+        {
+            href: "https://drive.google.com/file/d/1Sz4F0iXslvHnc9CP3REjniVAnPCu-3ET/view?usp=sharing",
+            title: "09. Enigmachina - wavelab101"
+        },
+        {
+            href: "https://drive.google.com/file/d/1PRcSXSyXvWjK2ovP-hwoKQGWioAJFCrV/view?usp=sharing",
+            title: "10. Fatal Error - Underwater Jazz"
+        },
+        {
+            href: "https://drive.google.com/file/d/1yZc9kfwQeYaE2NQ_1wv47RbGP5ZqbRab/view?usp=sharing",
+            title: "11. NumaNeith - N8475N"
+        },
+        {
+            href: "https://drive.google.com/file/d/11hZhhX5Hhq5GJT6q4gCRfyD1ZydpHdTB/view?usp=sharing",
+            title: "12. Nox - Kezun"
+        }
+    ]
+//Create Link from Google Photos (Share Button), then paste link here:
+//https://www.labnol.org/embed/google/photos/
 const covers = [
     "https://lh3.googleusercontent.com/CBsrSflHqrrAMW1WV8-gYAl28BhWe8NxwDwjvHHtvy7JbuWzCQ1uQ56W8BDBcZOUhHOFxPjfgCpx1uTKS3rGsNPBiLmzNTqb8_JjMlrcpLgEEUtFztCQeAmQtLh--qE3JltjfIg3=w2400",
     "https://lh3.googleusercontent.com/VuckXlWcs6qtJ-HuyhuOf9aRKCbR1Vnmwb_I5CSBKf-g4s12CV9AThtuawbpej_tLSjix-RMLriqjaIHK8VXFoScRgUFCPr842ErBs16akf3qG69QqkejyKF711Ce5M3A-dE5VpM=w2400",
     "https://lh3.googleusercontent.com/5fQX314vDdeMrFRUj3W6JJEnXbO9NU9upezlUU1ibGx3134_SAYMEqdW84Q_ytZXzMFMcXRZCH_Lb9d7pyKXqD6RHD8AuLBIwA4cmevJ0-04xsISEomaGXivPN8ALhaeQtp15Cbp=w2400",
     "https://lh3.googleusercontent.com/ftJbuZ0zYcYw5l_vextZP8XXTDvQFbcFSYUIxKjerDkie_pKa321NHDeo2fBMexUwYzvthL1yYWp3EQp1bvVve6A8u8qIQi6s7DckCKtudbzWFwFC5gA_bN_Mfo7NXUmwWlU2tdY=w2400",
     "https://lh3.googleusercontent.com/iIrFEJBNmB2CzfJJnqdLEENUwt_9HGyNfieLuczt3THx_VZdPOxXzJxkn-QvstoAGnnu6sR4A41qfbSiQ66_kbxkEGUjAiSupkXOyAqfxozIlMRvvS0eFJrxhW5QOjW4hLhC6VAILw=w2400",
-    "https://lh3.googleusercontent.com/_pjs5oeAt1WPVVPcDrTriQaLLm_AyU7oGXSrIs7VQyfz1FNlDyHr_fJ6STVKoz9SUEwq5xLmglKNIGSTAop2wVfv_tgaYT4z4T4TjOeWZ7XQH6O87xdl-B9ua9_BP7Tw8cnO3ZgZTA=w2400"
+    "https://lh3.googleusercontent.com/_pjs5oeAt1WPVVPcDrTriQaLLm_AyU7oGXSrIs7VQyfz1FNlDyHr_fJ6STVKoz9SUEwq5xLmglKNIGSTAop2wVfv_tgaYT4z4T4TjOeWZ7XQH6O87xdl-B9ua9_BP7Tw8cnO3ZgZTA=w2400",
+    "https://lh3.googleusercontent.com/E_OtSEeFKno-t5w4vAVDlhDLCbRVlx67d9ec8fYQe8HTPGZjeEWw_rJ4TdaqaDx5IKts4x94XhkN1Qa5lmp_yc5HwJFTjnbIhcJ1iQSDTv2xz6cJhlnCvpNYRGVa2Vm-oZRCnWAQuA=w2400"
   ]
 const dl = [
 "https://drive.google.com/drive/folders/1oJjItBypWsJUCULm_YsKeVI_P-9pMPwc?usp=sharing",
@@ -363,7 +417,9 @@ const dl = [
 "https://drive.google.com/drive/folders/15FwSTmChke0k7bbtPiCnDvejYCaHqsX-?usp=sharing",
 "https://drive.google.com/drive/folders/1ocpx2A7tPZjNL88HT3kquzruoXpM3uku?usp=sharing",
 "https://drive.google.com/drive/folders/11w1A7Sm76mmXyCcS8sBnXRZaEf8w5i5X?usp=sharing",
-"https://drive.google.com/drive/folders/1CVqjpQoajy272B_odxQu-iElNKI7ukTU?usp=sharing"
+"https://drive.google.com/drive/folders/1CVqjpQoajy272B_odxQu-iElNKI7ukTU?usp=sharing",
+"https://drive.google.com/drive/folders/1shmML_wiEaR_AWGg7jR28TFXlJCop4IC?usp=sharing",
+"https://drive.google.com/drive/folders/1shmML_wiEaR_AWGg7jR28TFXlJCop4IC?usp=sharing"
 ]
 const releaseInfo = [
 {
@@ -405,31 +461,37 @@ const releaseInfo = [
     album_name: "RYSAVY-25",
     artist_name: "rysavy",
     title: "written and produced by Rysavy",
-    dl_text: "Out now!",
+    dl_text: "Download Full Album Here",
     description: <Rys25/>
 },
-
+{
+    album_name: "Past Future",
+    artist_name: "",
+    title: "written and produced by Various Artists",
+    dl_text: "Out now!",
+    description: <PastFuture/>
+},
 ]
 export const releases = [
     {
-        "cover": covers[0],
-        "dl": dl[0],
-        "releaseInfo": releaseInfo[0],
-        "tracklists": minuteless,
-        "fade": "fade-left"
-    },
-    {
-        "cover": covers[1],
-        "dl": dl[1],
-        "releaseInfo": releaseInfo[1],
-        "tracklists": underwhelmed,
+        "cover": covers[6],
+        "dl": dl[6],
+        "releaseInfo": releaseInfo[6],
+        "tracklists": past_future,
         "fade": "fade-right"
     },
     {
-        "cover": covers[2],
-        "dl": dl[2],
-        "releaseInfo": releaseInfo[2],
-        "tracklists": arduous,
+        "cover": covers[5],
+        "dl": dl[5],
+        "releaseInfo": releaseInfo[5],
+        "tracklists": rysavy25,
+        "fade": "fade-left"
+    },
+    {
+        "cover": covers[4],
+        "dl": dl[4],
+        "releaseInfo": releaseInfo[4],
+        "tracklists": rysavy2,
         "fade": "fade-left"
     },
     {
@@ -440,17 +502,24 @@ export const releases = [
         "fade": "fade-right"
     },
     {
-        "cover": covers[4],
-        "dl": dl[4],
-        "releaseInfo": releaseInfo[4],
-        "tracklists": rysavy2,
+        "cover": covers[2],
+        "dl": dl[2],
+        "releaseInfo": releaseInfo[2],
+        "tracklists": arduous,
         "fade": "fade-left"
     },
     {
-        "cover": covers[5],
-        "dl": dl[5],
-        "releaseInfo": releaseInfo[5],
-        "tracklists": rysavy25,
+        "cover": covers[1],
+        "dl": dl[1],
+        "releaseInfo": releaseInfo[1],
+        "tracklists": underwhelmed,
+        "fade": "fade-right"
+    },
+    {
+        "cover": covers[0],
+        "dl": dl[0],
+        "releaseInfo": releaseInfo[0],
+        "tracklists": minuteless,
         "fade": "fade-left"
     },
 ]
