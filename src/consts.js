@@ -361,7 +361,7 @@ const rysavy25 = [
         },
         {
             href: "https://drive.google.com/file/d/1qs9we7R4rqYC89Aczve-EQZYqiChji-L/view?usp=sharing",
-            title: "03. ZigzaX - NOW Is Less Than A Second Longer Than Infinity",
+            title: "03. ZigzaX - Now Is Less Than A Second Longer Than Infinity",
         },
         { 
             href: "https://drive.google.com/file/d/1YRwkPQA-QqE-ZEX5Qpwmpjtj3ucU_jX5/view?usp=sharing",
@@ -385,7 +385,7 @@ const rysavy25 = [
         },
         {
             href: "https://drive.google.com/file/d/1Sz4F0iXslvHnc9CP3REjniVAnPCu-3ET/view?usp=sharing",
-            title: "09. Enigmachina - wavelab101"
+            title: "09. Enigmachina - Wavelab101"
         },
         {
             href: "https://drive.google.com/file/d/1PRcSXSyXvWjK2ovP-hwoKQGWioAJFCrV/view?usp=sharing",

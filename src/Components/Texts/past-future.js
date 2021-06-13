@@ -7,6 +7,8 @@ const PastFuture = () => {
         <div>
             <p class="description">
                 <div>Collaborative release with Metacortex Records<br></br><br></br></div>
+                <div>Mastering by Ioannis Karapostolis of Tenebral Cortex<br></br>
+                With the exception of track 05. K-Owl - Melting Plastic Mind, which is self-mastered<br></br><br></br></div>
                 <div>
                 Traditionally rhythm takes shape by repetition of similar sounds which change slightly at uniform time intervals. <br></br>
                 Since the early ages, people exploited this repetition to elaborate their emotions and thoughts in some order,<br></br> 
