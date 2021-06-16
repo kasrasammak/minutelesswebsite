@@ -16,11 +16,11 @@ const Release = ({ fade, covers, tracklist, dl, releaseInfo }) => {
         <h2>{releaseInfo.album_name} </h2>
         <h3>{releaseInfo.artist_name}</h3>
         <p className="title">{releaseInfo.title}</p>
-        <p id="dl_link"><a href={dl} download>{releaseInfo.dl_text}</a></p>
+        <p id="dl_link"><a target="_blank" rel="noopener noreferrer" href={dl} download>{releaseInfo.dl_text}</a></p>
         <br></br>
         <ul id="playlist"> 
           { 
-            tracklist.map(data => <li><a href={data.href}>{data.title}</a></li>)
+            tracklist.map(data => <li><a target="_blank" rel="noopener noreferrer" href={data.href}>{data.title}</a></li>)
           }
         </ul>
         <br></br>
