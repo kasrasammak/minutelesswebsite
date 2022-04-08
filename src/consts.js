@@ -425,21 +425,21 @@ const releaseInfo = [
 {
     album_name: "minuteless debut va",
     artist_name: "",
-    title: "compiled by Kasra Sammak of K-Owl",
+    title: "compiled by K-Owl",
     dl_text: "Download Full Album Here",
     description: <Min/>
 },
 {
     album_name: "underwhelmed",
     artist_name: "rysavy",
-    title: "written and produced by Denis Rysavy.",
+    title: "written and produced by Rysavy.",
     dl_text: "Download Full Album Here",
     description: <Und/>
 },
 {
     album_name: "arduous recursion",
     artist_name: "tenebral cortex",
-    title: "written and produced by Ioannis Karapostolis.",
+    title: "written and produced by Tenebral Cortex.",
     dl_text: "Download Full Album Here",
     description: <Ard/>
 },
@@ -531,10 +531,10 @@ const rysavy = "https://lh3.googleusercontent.com/B_stUs1_q36eOYuYP-tL0zFohwYXp-
 const k_owl = "https://lh3.googleusercontent.com/7ZreDp5tBipuc5U4iw_l321Ya2X4RDHexEH8XFAms7mjZdhEP6ZczDNNQB2qXusypLsX5IFEudcyQz8s9Chz2akzQx_C1uLWCty0ZHLEuz49EuJw_NjyZN9nu9_tZd-urRErB8-K=w2400"
 const enigmachina = "https://lh3.googleusercontent.com/_WzG_a86JwW18_vMlpCvGYJhxl9Q1sH3s_yLrO7HCfGCsTZdtg5ui6GhO8mTwKLPrIbRlDaDoNQZogV5is-LGcbdcPOfw_ljoT3o9Vnpe27T4Onad4y8pADfEAgDWMhz5A3wKLZl=w2400"
 const nox = "https://lh3.googleusercontent.com/zAARbforVpmjcKMM6JmQ6FX7DX2mWwlgxTURZodZkWzsfoCTEDSbd3S2pNu6w7x9S97dFg3GbBDXqmStq_IVa3V8yjnnODUbbyxnh2yqy-O02g68At_RyMUSqjuOGBrGYegD0QY5=w2400"
-const tenebral_cortex = "https://lh3.googleusercontent.com/lUgmrKfyU44gl8KX-CUuUMekmh2CruaiyZo-WrLR9GdU0JDaGfgTDwt66ySp62jbFk8-BRUOSvQd__WmKVOz6U09mcls92FckmxxRZrLbPxacLMPnicHchy6WZ-ObCmbvi2M1Cyh=w2400"
 const beep_etc = "https://lh3.googleusercontent.com/YfFvlkf7Sa46wIB1hlrgEfFdYW_kD1fwB9e2lin8puZwe_M4KNexwW9vxffT-2Y92C7TWW-lwPm5UnMMeN6p65Sf834DPvdnoJxygqDpu2KJ-2xxDmbfQkWTmtUli3_NNeSR-Er3=w2400"
-const tsev = "https://lh3.googleusercontent.com/Tm0ajujhKfq65QajSvNIvGuyiBJJLeljzYsuMe6mX2EyAtc9fBa0yHr0cwv-VxvL5VIlnfJA_Qp02IXJgjSxHEO95B3_i3iKXIDjp9Mlrhl_nBAhKngAv0scqDLHsbWQQTLo_arK=w2400"
-const disektor = "https://lh3.googleusercontent.com/ak9bc6IsHWIhL3XCBD9EM5QKs7TqS5R2Cwc9dfAslblDFl56gAPPft74XRBjKPbD50IdZK-UUeAyetpGH9ETtgKiPyODJG45CKArqlOymvY72Y6cvZHWRvZnJVp4iMKd2rlUXbu3=w2400"   
+// const tenebral_cortex = "https://lh3.googleusercontent.com/lUgmrKfyU44gl8KX-CUuUMekmh2CruaiyZo-WrLR9GdU0JDaGfgTDwt66ySp62jbFk8-BRUOSvQd__WmKVOz6U09mcls92FckmxxRZrLbPxacLMPnicHchy6WZ-ObCmbvi2M1Cyh=w2400"
+// const tsev = "https://lh3.googleusercontent.com/Tm0ajujhKfq65QajSvNIvGuyiBJJLeljzYsuMe6mX2EyAtc9fBa0yHr0cwv-VxvL5VIlnfJA_Qp02IXJgjSxHEO95B3_i3iKXIDjp9Mlrhl_nBAhKngAv0scqDLHsbWQQTLo_arK=w2400"
+// const disektor = "https://lh3.googleusercontent.com/ak9bc6IsHWIhL3XCBD9EM5QKs7TqS5R2Cwc9dfAslblDFl56gAPPft74XRBjKPbD50IdZK-UUeAyetpGH9ETtgKiPyODJG45CKArqlOymvY72Y6cvZHWRvZnJVp4iMKd2rlUXbu3=w2400"   
 
 // const profiles = [doob, jovan, rysavy, k_owl, enigmachina, nox, tenebral_cortex, beep_etc, tsev, disektor]
 
@@ -544,7 +544,7 @@ export const artistInfo = [
     {
         "artist": "doob",
         "nickname": "the schwiggle",
-        "description": "The human behind the Project doob, is called Joe Nemcok, he lives in New York and has Slovakian roots. Believe it or not, he is a real person.",
+        "description": "",
         "soundcloud": "https://soundcloud.com/jdoobn",
         "profile": doob,
         "fade": "fade-left"
@@ -552,7 +552,7 @@ export const artistInfo = [
     {
         "artist": "nihilij | voj",
         "nickname": "the fraggle",
-        "description": "Our one and Only Jovan M. Theres not much to say, he lives in California and plays piano.",
+        "description": "",
         "soundcloud": "https://soundcloud.com/definitely-jovan",
         "profile": jovan,
         "fade": "fade-right"
@@ -560,7 +560,7 @@ export const artistInfo = [
     {
         "artist": "rysavy",
         "nickname": "the whomble",
-        "description": "Rysavy, is the project of Denis Rysavy, Turkish and German roots, he is currently living in Germany.",
+        "description": "",
         "soundcloud": "https://soundcloud.com/denis-rysavy",
         "profile": rysavy,
         "fade": "fade-left"
@@ -568,57 +568,58 @@ export const artistInfo = [
     {
         "artist": "k-owl",
         "nickname": "the skripple",
-        "description": "K-Owl - living legend Kasra Sammak, Persian roots, from USA, currently housing in Berlin with his cat Bear.",
+        "description": "",
         "soundcloud": "https://soundcloud.com/k-owl",
         "profile": k_owl,
         "fade": "fade-right"
     },
     {
         "artist": "enigmachina",
-        "nickname": "the wump",
-        "description": "Alban Rumpf is the person behind the  Enigmachina Project, chilling in Oldenburg with some cats.",
+        "nickname": "the wubble",
+        "description": "",
         "soundcloud": "https://soundcloud.com/theongoingarcanum",
         "profile": enigmachina,
         "fade": "fade-left"
     },
     {
         "artist": "nox",
-        "nickname": "the winkle",
+        "nickname": "the ziggle",
         "description": <Nox/>,
         "soundcloud": "https://soundcloud.com/nox_sound",
         "profile": nox,
         "fade": "fade-right"
     },
     {
-        "artist": "tenebral cortex",
-        "nickname": "the quirkle",
-        "description": "Tenebral Cortex emerges from the mind of french/greek artist Ioannis Karapostolis of Greece. He is currently living in France.",
-        "soundcloud": "https://soundcloud.com/tenebralcortex",
-        "profile": tenebral_cortex,
-        "fade": "fade-left"
-    },
-    {
         "artist": "beep etc.",
-        "nickname": "the weeble",
-        "description": "beep etc. is Tanis Nielsen from Denmark",
+        "nickname": "the beeble",
+        "description": "",
         "soundcloud": "https://soundcloud.com/beepetc",
         "profile": beep_etc,
         "fade": "fade-right"
-    },
-    {
-        "artist": "tsev",
-        "nickname": "the wubble",
-        "description": "tsev is Mario from Greece",
-        "soundcloud": "https://soundcloud.com/chev-5",
-        "profile": tsev,
-        "fade": "fade-left",
-    },
-    {
-        "artist": "disektor",
-        "nickname": "the crunkle",
-        "description": "disektor is Simo Mansouri from Morocco",
-        "soundcloud": "https://soundcloud.com/disektor",
-        "profile": disektor,
-        "fade": "fade-right"
     }
+    // {
+    //     "artist": "tenebral cortex",
+    //     "nickname": "the quirkle",
+    //     "description": "Tenebral Cortex emerges from the mind of french/greek artist Ioannis Karapostolis of Greece. He is currently living in France.",
+    //     "soundcloud": "https://soundcloud.com/tenebralcortex",
+    //     "profile": tenebral_cortex,
+    //     "fade": "fade-left"
+    // },
+
+    // {
+    //     "artist": "tsev",
+    //     "nickname": "the wubble",
+    //     "description": "tsev is Mario from Greece",
+    //     "soundcloud": "https://soundcloud.com/chev-5",
+    //     "profile": tsev,
+    //     "fade": "fade-left",
+    // },
+    // {
+    //     "artist": "disektor",
+    //     "nickname": "the crunkle",
+    //     "description": "disektor is Simo Mansouri from Morocco",
+    //     "soundcloud": "https://soundcloud.com/disektor",
+    //     "profile": disektor,
+    //     "fade": "fade-right"
+    // }
 ]
