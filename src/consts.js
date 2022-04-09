@@ -584,7 +584,7 @@ export const artistInfo = [
     {
         "artist": "nox",
         "nickname": "the ziggle",
-        "description": <Nox/>,
+        "description": "",
         "soundcloud": "https://soundcloud.com/nox_sound",
         "profile": nox,
         "fade": "fade-right"
