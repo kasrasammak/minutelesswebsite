@@ -403,7 +403,7 @@ const rysavy25 = [
     const loop_reloop = [
         { 
             href: "https://drive.google.com/file/d/1fDKVDJrPUs5eqiCzrwGR-B-Px0vKjoRL/view?usp=sharing", 
-            title: "01. Alien Lazer Baby - Unti" 
+            title: "01. Alien Lazer Baby - Bleed Into You" 
         },
         { 
             href: "https://drive.google.com/file/d/1p8onxw7Dp_LJ5hrR2vXGoxVxvGr2WKCL/view?usp=sharing",
@@ -415,19 +415,19 @@ const rysavy25 = [
         },
         { 
             href: "https://drive.google.com/file/d/1D48hlzCKqOBaOWhuS8Rr81I4QE6As2sn/view?usp=sharing",
-            title: "04. Eno Gata - ich hab's probiert",
+            title: "04. Eno Gata - ich schwör ich habs probiert",
         },
         { 
             href: "https://drive.google.com/file/d/1hTleGjSiEuUDfdUnRZrSihzLm4sMoFHe/view?usp=sharing",
-            title: "05. Hypercube"
+            title: "05. Hypercube - Spine Mechanics"
         },
         { 
             href: "https://drive.google.com/file/d/1-484O8cgEZLb2IbDG50zX8EZlhI7E-yd/view?usp=sharing",
-            title: "06. Jim Kimchi"
+            title: "06. Jim Kimchi - Error E"
         },
         { 
             href: "https://drive.google.com/file/d/1pJ12fR2692JjqRvOBxXD3b5kkBAdswSp/view?usp=sharing",
-            title: "07. K-Owl Slice Line"
+            title: "07. K-Owl - Slice Line"
         },
         {
             href: "https://drive.google.com/file/d/1-0wJyOhYvtszeWwtcWZVFNxCE_pdjruP/view?usp=sharing",
@@ -447,11 +447,11 @@ const rysavy25 = [
         },
         {
             href: "https://drive.google.com/file/d/1c38FeBEn1JnMWUegxytC_o7yWQpIQQUM/view?usp=sharing",
-            title: "12. ZZY - Human Not Dancing"
+            title: "12. ZZY - Humans Not Dancing"
         },
         {
             href: "https://drive.google.com/file/d/1AuLCWtnkyq9UNFD1wfWCpZ520JYdtS_m/view?usp=sharing",
-            title: "13. Psypower - Surgical Rewiring"
+            title: "13. Psypower - Psychological Rewiring"
         }
     ]
 //Create Link from Google Photos (Share Button), then paste link here:
@@ -541,7 +541,7 @@ export const releases = [
         "releaseInfo": releaseInfo[7],
         "tracklists": loop_reloop,
         "fade": "fade-left"
-    }
+    },
     {
         "cover": covers[6],
         "dl": dl[6],
