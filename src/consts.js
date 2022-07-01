@@ -400,6 +400,60 @@ const rysavy25 = [
             title: "12. Nox - Kezun"
         }
     ]
+    const loop_reloop = [
+        { 
+            href: "https://drive.google.com/file/d/1fDKVDJrPUs5eqiCzrwGR-B-Px0vKjoRL/view?usp=sharing", 
+            title: "01. Alien Lazer Baby - Unti" 
+        },
+        { 
+            href: "https://drive.google.com/file/d/1p8onxw7Dp_LJ5hrR2vXGoxVxvGr2WKCL/view?usp=sharing",
+            title: "02. doob - sand planet bazaar"
+        },
+        {
+            href: "https://drive.google.com/file/d/1cop6hzg2c9iGJ0kX9M3Wh7L4BqQTg9bH/view?usp=sharing",
+            title: "03. doob - teatime at doobs",
+        },
+        { 
+            href: "https://drive.google.com/file/d/1D48hlzCKqOBaOWhuS8Rr81I4QE6As2sn/view?usp=sharing",
+            title: "04. Eno Gata - ich hab's probiert",
+        },
+        { 
+            href: "https://drive.google.com/file/d/1hTleGjSiEuUDfdUnRZrSihzLm4sMoFHe/view?usp=sharing",
+            title: "05. Hypercube"
+        },
+        { 
+            href: "https://drive.google.com/file/d/1-484O8cgEZLb2IbDG50zX8EZlhI7E-yd/view?usp=sharing",
+            title: "06. Jim Kimchi"
+        },
+        { 
+            href: "https://drive.google.com/file/d/1pJ12fR2692JjqRvOBxXD3b5kkBAdswSp/view?usp=sharing",
+            title: "07. K-Owl Slice Line"
+        },
+        {
+            href: "https://drive.google.com/file/d/1-0wJyOhYvtszeWwtcWZVFNxCE_pdjruP/view?usp=sharing",
+            title: "08. Rysavy - Let Your Art Go On"
+        },
+        {
+            href: "https://drive.google.com/file/d/1ZbfEDukPnzCKW4vfvImaOtK7jfTN2aZW/view?usp=sharing",
+            title: "09. Slicer - MI_RS (Mixing Ideas_Reversing Souls)"
+        },
+        {
+            href: "https://drive.google.com/file/d/1kGhElswujtqEd1006QkVIKqGDsQGGFyN/view?usp=sharing",
+            title: "10. Tsev - kabk pervert"
+        },
+        {
+            href: "https://drive.google.com/file/d/1xqbs7ests0wpzbr55EovcynLUZag8qs7/view?usp=sharing",
+            title: "11. Voj - Serums"
+        },
+        {
+            href: "https://drive.google.com/file/d/1c38FeBEn1JnMWUegxytC_o7yWQpIQQUM/view?usp=sharing",
+            title: "12. ZZY - Human Not Dancing"
+        },
+        {
+            href: "https://drive.google.com/file/d/1AuLCWtnkyq9UNFD1wfWCpZ520JYdtS_m/view?usp=sharing",
+            title: "13. Psypower - Surgical Rewiring"
+        }
+    ]
 //Create Link from Google Photos (Share Button), then paste link here:
 //https://www.labnol.org/embed/google/photos/
 const covers = [
@@ -409,7 +463,8 @@ const covers = [
     "https://lh3.googleusercontent.com/ftJbuZ0zYcYw5l_vextZP8XXTDvQFbcFSYUIxKjerDkie_pKa321NHDeo2fBMexUwYzvthL1yYWp3EQp1bvVve6A8u8qIQi6s7DckCKtudbzWFwFC5gA_bN_Mfo7NXUmwWlU2tdY=w2400",
     "https://lh3.googleusercontent.com/iIrFEJBNmB2CzfJJnqdLEENUwt_9HGyNfieLuczt3THx_VZdPOxXzJxkn-QvstoAGnnu6sR4A41qfbSiQ66_kbxkEGUjAiSupkXOyAqfxozIlMRvvS0eFJrxhW5QOjW4hLhC6VAILw=w2400",
     "https://lh3.googleusercontent.com/_pjs5oeAt1WPVVPcDrTriQaLLm_AyU7oGXSrIs7VQyfz1FNlDyHr_fJ6STVKoz9SUEwq5xLmglKNIGSTAop2wVfv_tgaYT4z4T4TjOeWZ7XQH6O87xdl-B9ua9_BP7Tw8cnO3ZgZTA=w2400",
-    "https://lh3.googleusercontent.com/E_OtSEeFKno-t5w4vAVDlhDLCbRVlx67d9ec8fYQe8HTPGZjeEWw_rJ4TdaqaDx5IKts4x94XhkN1Qa5lmp_yc5HwJFTjnbIhcJ1iQSDTv2xz6cJhlnCvpNYRGVa2Vm-oZRCnWAQuA=w2400"
+    "https://lh3.googleusercontent.com/E_OtSEeFKno-t5w4vAVDlhDLCbRVlx67d9ec8fYQe8HTPGZjeEWw_rJ4TdaqaDx5IKts4x94XhkN1Qa5lmp_yc5HwJFTjnbIhcJ1iQSDTv2xz6cJhlnCvpNYRGVa2Vm-oZRCnWAQuA=w2400",
+    "https://lh3.googleusercontent.com/qxwG5lWU8PgwHy2jBlfBGQWlVYKUAupQiNMc1efyWgcKn9s64Eo69dsnHkKY05XDGpe5eUujpEoTJYI7XTMgwRNpwhJofo9nyj0zjdYWNKfwJNQfErKF7YlOWL9vB6VBVUSx_4j4lA=w2400"
   ]
 const dl = [
 "https://drive.google.com/drive/folders/1oJjItBypWsJUCULm_YsKeVI_P-9pMPwc?usp=sharing",
@@ -419,7 +474,8 @@ const dl = [
 "https://drive.google.com/drive/folders/11w1A7Sm76mmXyCcS8sBnXRZaEf8w5i5X?usp=sharing",
 "https://drive.google.com/drive/folders/1CVqjpQoajy272B_odxQu-iElNKI7ukTU?usp=sharing",
 "https://drive.google.com/drive/folders/1shmML_wiEaR_AWGg7jR28TFXlJCop4IC?usp=sharing",
-"https://drive.google.com/drive/folders/1shmML_wiEaR_AWGg7jR28TFXlJCop4IC?usp=sharing"
+"https://drive.google.com/drive/folders/1shmML_wiEaR_AWGg7jR28TFXlJCop4IC?usp=sharing",
+"https://drive.google.com/drive/folders/15qDackSlP27deNZjq50TMsoGg-WmZYJ3?usp=sharing"
 ]
 const releaseInfo = [
 {
@@ -468,11 +524,24 @@ const releaseInfo = [
     album_name: "Past Future",
     artist_name: "",
     title: "written and produced by Various Artists",
-    dl_text: "Out now!",
+    dl_text: "Download Full Album Here",
     description: <PastFuture/>
 },
+{
+    album_name: "loop:/re/:loop",
+    artist_name: "",
+    title: "written and produced by Various Artists",
+    dl_text: "Out Now!"
+}
 ]
 export const releases = [
+    {
+        "cover": covers[7],
+        "dl": dl[7],
+        "releaseInfo": releaseInfo[7],
+        "tracklists": loop_reloop,
+        "fade": "fade-left"
+    }
     {
         "cover": covers[6],
         "dl": dl[6],
