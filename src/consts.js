@@ -4,7 +4,7 @@ import Und  from './Components/Texts/underwhelmed_text.js'
 import Ard  from './Components/Texts/arduous_text.js'
 import Pul  from './Components/Texts/pulviemscri_text.js'
 import Rys  from './Components/Texts/rysavy2_text.js'
-import Nox  from './Components/Texts/nox_text.js'
+// import Nox  from './Components/Texts/nox_text.js'
 import Rys25  from './Components/Texts/rysavy-25_text.js'
 import PastFuture from './Components/Texts/past-future.js'
 
