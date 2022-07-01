@@ -530,8 +530,9 @@ const releaseInfo = [
 {
     album_name: "loop:/re/:loop",
     artist_name: "",
-    title: "written and produced by Various Artists",
-    dl_text: "Out Now!"
+    title: "compiled by Psypower",
+    dl_text: "Out Now!",
+    description: "written and produced by Various Artists"
 }
 ]
 export const releases = [
