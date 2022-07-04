@@ -474,7 +474,6 @@ const dl = [
 "https://drive.google.com/drive/folders/11w1A7Sm76mmXyCcS8sBnXRZaEf8w5i5X?usp=sharing",
 "https://drive.google.com/drive/folders/1CVqjpQoajy272B_odxQu-iElNKI7ukTU?usp=sharing",
 "https://drive.google.com/drive/folders/1shmML_wiEaR_AWGg7jR28TFXlJCop4IC?usp=sharing",
-"https://drive.google.com/drive/folders/1shmML_wiEaR_AWGg7jR28TFXlJCop4IC?usp=sharing",
 "https://drive.google.com/drive/folders/15qDackSlP27deNZjq50TMsoGg-WmZYJ3?usp=sharing"
 ]
 const releaseInfo = [
