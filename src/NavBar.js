@@ -3,13 +3,14 @@ import {Link} from 'react-router-dom';
 
 function NavBar(){
 
-    const logo = "https://lh3.googleusercontent.com/8S8tDfYlYMQgkDvzuann7_mEpvjlaeTVXoR4337FfIwJ_kuG9pp57ezr69G71GcjwcLUgaefPpEbcnFZzSSmrwD_8Y-snEeixzA6W9Us45AK_goKZyMnmaqekvpxckrhtpIADZtosw=w2400"
+    const logo = "https://lh3.googleusercontent.com/hBan1-ORAnMMr5AUBLdKocXQt7u56qDcvd1z0htVcsflcDeFL8-UY2hA50at2wJQG1-eCCvR12FMQ-XkY4pTubC5Do9SDWPRApImREPDYk5-2Az7psSI8hsET0UEMi2equJvQ7Y-vw=w2400"
     
     return(
         <nav style={{zIndex:"100"}}>
              <div className="logo">
         <Link to="/"><img alt="logo" src= { logo }></img></Link>
         </div>
+        <h5>Minuteless Recordings</h5>
             <ul>
                 <li><Link to="/About">About</Link></li>
                 <li><Link to="/News">News</Link></li>

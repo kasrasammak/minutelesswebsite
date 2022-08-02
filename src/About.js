@@ -16,14 +16,14 @@ function About(){
     <div className="centerDoc">
         <h1 className="headers">ABOUT US</h1>
         <div id="divLeft">
-            <p id="text_about">Minuteless Recordings is a music label of its own.
+            <p class="text_about">Minuteless Recordings is a music label of its own.
             <br></br>
             <br></br>
                 And its not only about music:  mathematics, philosophy, language, programming, it is where the intersection of various disciplines converges at art and community. <br></br><br></br>
                 It is a way of life, a way of thinking forward, a way of exploration.<br></br><br></br> 
                 In the end there's many terms you could use to describe it,
                 and we could even use different languages,<br></br><br></br>
-                <p>but when you know it's minuteless, you just know. </p><br></br>
+                <p id="you-know">but when you know it's minuteless, you just know. </p><br></br>
                 Certainty and doubt don't even exist in the paradigm you are in anymore,
                 your belief system has effectively disintegrated.
                 <br></br><br></br>
@@ -41,27 +41,26 @@ function About(){
                     Contact:
                     <br></br>
                     <br></br>
+                    <i class="fa fa-soundcloud" aria-hidden="true"></i>
                     <a href="http://soundcloud.com/minutelessrecordings">Soundcloud</a>
                     <br></br>
+                    <i class="fa fa-twitch" aria-hidden="true"></i>
                     <a href="http://twitch.tv/minutelessrecordings">Twitch</a>
                     <br></br>
                     <br></br>
                     <div>Paypal / E-mail: minutelessrecordings@gmail.com</div><br></br>
                     Write us! <br></br>
-                    We accept donations :) <br></br><br></br>
-                    
+                    We accept donations :) <br></br><br></br>                 
                 </div>
                 
             </p> 
             {/* <video  data-aos="fade-right" id="video2" controls="true" src={ video1 }></video>
             <video  data-aos="fade-left" controls="true" src={ video2 }></video> */}
 
-            <iframe></iframe>
-            <iframe title="k-owl_video" className="video" data-aos="fade-right" width="350px" height="350px" src={video1} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
-            <iframe id = "break"></iframe>
-            <iframe id="doob-video" title="doob_video" className="video" data-aos="fade-left" width="350px" height="350px" src={video2} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
-         <br></br> 
-         <br></br>    
+            <h2 className='headers'>VIDEOS</h2>
+            <iframe title="k-owl_video" class="video" data-aos="fade-right" width="560" height="315" src={video1} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="doob_video" class="video" data-aos="fade-left" width="560" height="315" src={video2} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <br></br>     
         </div>
     </div>
           

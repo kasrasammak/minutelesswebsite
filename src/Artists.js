@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { artistInfo, soundcloud } from './consts.js'
 import Artist from './Components/Artist.js'
+import Header from './Components/Header.js'
 
 
 function Artists(){
@@ -13,17 +14,21 @@ function Artists(){
   }, []); 
 
   return(
-    <div className="centerDoc">
-      <h1 className="headers">ARTISTS</h1>
+
+    <div className="centerDoc2">
+    <h1 id="artist-header" className="headers">ARTISTS</h1>
+      <div className='gallery'>
+      <div className="row">
+      <a title="scroll-left"class="prev">&#10094;</a>
         { artistInfo.map(data => 
           <Artist 
             artistInfo={data}
             soundcloud={soundcloud}
           />
-
           )}
-           <div id="spacer2"></div>
-           
+      <a title="scroll-right"class="next">&#10095;</a>
+          </div>
+      </div>
     </div>
    
   )
